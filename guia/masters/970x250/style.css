@@ -1,0 +1,78 @@
+/* Step 1 */
+.bg {
+  background-image: url("bg.jpg");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 970px;
+  height: 250px;
+  z-index: 1;
+}
+
+.txt1 {
+  background-image: url("txt1.png");
+  position: absolute;
+  left: 614px;
+  top: 74px;
+  width: 243px;
+  height: 99px;
+  z-index: 2;
+  opacity: 0;
+}
+
+/* Step 2 */
+.txt2 {
+  background-image: url("txt2.png");
+  position: absolute;
+  left: 600px;
+  top: 62px;
+  width: 322px;
+  height: 135px;
+  z-index: 3;
+  opacity: 0;
+}
+
+.elem1 {
+  background-image: url("elem1.png");
+  position: absolute;
+  left: 215px;
+  top: 58px;
+  width: 305px;
+  height: 123px;
+  z-index: 3;
+  opacity: 0;
+}
+
+/* Step 3 */
+.txt3 {
+  background-image: url("txt3.png");
+  position: absolute;
+  left: 565px;
+  top: 73px;
+  width: 219px;
+  height: 102px;
+  z-index: 4;
+  opacity: 0;
+}
+
+.elem2 {
+  background-image: url("elem2.png");
+  position: absolute;
+  left: 516px;
+  top: 37px;
+  width: 16px;
+  height: 24px;
+  z-index: 4;
+  opacity: 0;
+}
+
+.logo {
+  background-image: url("logo.png");
+  position: absolute;
+  left: 815px;
+  top: 95px;
+  width: 117px;
+  height: 80px;
+  z-index: 4;
+  opacity: 0;
+}

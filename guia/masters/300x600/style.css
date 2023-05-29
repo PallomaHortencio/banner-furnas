@@ -1,0 +1,85 @@
+@charset "8-utf";
+
+body {
+  margin: 0;
+}
+
+/* Step 1 */
+.bg {
+  background-image: url("bg.jpg");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 300px;
+  height: 600px;
+  z-index: 1;
+  opacity: 0;
+}
+
+.txt1 {
+  background-image: url("txt1.png");
+  position: absolute;
+  left: 152px;
+  top: 313px;
+  width: 125px;
+  height: 51px;
+  z-index: 2;
+  opacity: 0;
+}
+
+/* Step 2 */
+.txt2 {
+  background-image: url("txt2.png");
+  position: absolute;
+  left: 150px;
+  top: 296px;
+  width: 138px;
+  height: 86px;
+  z-index: 3;
+  opacity: 0;
+}
+
+.elem1 {
+  background-image: url("elem1.png");
+  position: absolute;
+  left: 15px;
+  top: 173px;
+  width: 259px;
+  height: 108px;
+  z-index: 3;
+  opacity: 0;
+}
+
+/* Step 3 */
+.txt3 {
+  background-image: url("txt3.png");
+  position: absolute;
+  left: 150px;
+  top: 303px;
+  width: 127px;
+  height: 63px;
+  z-index: 4;
+  opacity: 0;
+}
+
+.elem2 {
+  background-image: url("elem2.png");
+  position: absolute;
+  left: 270px;
+  top: 154px;
+  width: 14px;
+  height: 21px;
+  z-index: 4;
+  opacity: 0;
+}
+
+.logo {
+  background-image: url("logo.png");
+  position: absolute;
+  left: 150px;
+  top: 385px;
+  width: 86px;
+  height: 60px;
+  z-index: 4;
+  opacity: 0;
+}

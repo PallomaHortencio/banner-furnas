@@ -1,0 +1,38 @@
+@charset "8-utf";
+
+body {
+  margin: 0;
+}
+
+/* Step 1 */
+.bg {
+  background-image: url("bg.jpg");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 300px;
+  height: 100px;
+  z-index: 1;
+  opacity: 0;
+}
+
+.txt1 {
+  background-image: url("txt1.png");
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 136px;
+  height: 66px;
+  z-index: 2;
+}
+
+.logo {
+  background-image: url("logo.png");
+  position: absolute;
+  left: 176px;
+  top: 13px;
+  width: 110px;
+  height: 75px;
+  z-index: 2;
+  opacity: 0;
+}
